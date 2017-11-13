@@ -21,6 +21,6 @@ public class Evaluator implements InterfaceEvaluator{
                 n_sc++;
             }
         }
-        return Math.abs(Math.PI-((4*n_sc)/n_p));
+        return Math.abs(Math.PI-(((float)(4*n_sc))/n_p));
     }
 }
